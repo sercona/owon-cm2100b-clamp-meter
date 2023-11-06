@@ -52,7 +52,7 @@ gatttool needs to be installed and operational in linux for this application to 
 # Usage
 	$ sudo ./cm2100b_cli -h
 
-	Usage: ./cm2100b_cli  -a <address> [-t] [-o <filename>] [-d] [-q]
+	Usage: ./cm2100b_cli  -a <address>  [-o <filename>] [-d] [-q]
 	-h: This help
 	-a <address>: Set the address of the cm2100b meter, eg, -a 98:84:E3:CD:C0:E5
 	-l <filename>: Set logging and the filename for the log
