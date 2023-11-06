@@ -51,13 +51,13 @@ uint16_t reading[3];  // 3 groups of 16bit words (6 bytes total)
 char tmp_val_buf[16];
 char fixed_val_buf[16];
 
-char help[] = " -a <address> [-t] [-o <filename>] [-d] [-q]\n"\
+char help[] = " -a <address> [-l <filename>] [-d] [-q]\n"\
   "\t-h: This help\n"\
   "\t-a <address>: Set the address of the cm2100b meter, eg, -a 98:84:E3:CD:C0:E5\n"\
   "\t-l <filename>: Set logging and the filename for the log\n"\
   "\t-d: debug enabled\n"\
   "\t-q: quiet output\n"\
-  "\n\n\texample: cm2100b_cli -a 98:84:E3:CD:C0:E5 -t -o obsdata.txt\n"\
+  "\n\n\texample: cm2100b_cli -a 98:84:E3:CD:C0:E5 -l obsdata.txt\n"\
   "\n";
 
 char default_output[] = "cm2100b.txt";
