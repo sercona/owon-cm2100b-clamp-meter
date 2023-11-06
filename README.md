@@ -31,12 +31,12 @@ gatttool needs to be installed and operational in linux for this application to 
 
 	or try using this discovery tool:
  
-	$ python3 -u py-ble-scan2.py
+	$ python3 -u ./py-ble-scan2.py
 	A6:C0:80:94:54:D9 BDM
 
 	If your hci0 (or ble stack) is stuck, try resetting via:
  
-	$ sudo python3 -u /new_nas/hci-resetter.py --now
+	$ sudo python3 -u ./hci-resetter.py --now
 	Resetting HCI hci0
 	HCI hci0 has been reset
 
