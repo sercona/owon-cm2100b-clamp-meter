@@ -5,7 +5,7 @@ OWON cm2100b Mutltimeter data capture and display for Linux.
 
 ![meter](cm2100b_1.jpg)
 
-Captures, converts, displays and stores output from Bluetooth (BLE) output.
+Captures, converts, displays and stores Bluetooth (BLE) output from this meter.
 
 # Requirements
 gatttool needs to be installed and operational in linux for this application to work.
