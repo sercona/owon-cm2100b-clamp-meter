@@ -80,11 +80,11 @@ gatttool needs to be installed and operational in linux for this application to 
 	1699308112.42 00.00 DC mV
 
 # Resources
-	* https://github.com/ludwich66/Bluetooth-DMM/wiki/Bluetooth---Analyses
-	* https://github.com/ludwich66/Bluetooth-DMM/wiki/
-	* https://www.eevblog.com/forum/testgear/owon-cm2100b-is-uni-t-ut210e-inspired/msg5153328/
-	* https://github.com/DeanCording/owonb35
-	* https://github.com/jtcash/OwonB41T
-	* https://rudd-o.com/linux-and-free-software/working-around-bluetooth-hci-problems-in-home-assistant
-	* https://stackoverflow.com/questions/66196897/python-ble-discover-all-uuid-characteristics
+* (https://github.com/ludwich66/Bluetooth-DMM/wiki/Bluetooth---Analyses)
+* (https://github.com/ludwich66/Bluetooth-DMM/wiki/)
+* (https://www.eevblog.com/forum/testgear/owon-cm2100b-is-uni-t-ut210e-inspired/msg5153328/)
+* (https://github.com/DeanCording/owonb35)
+* (https://github.com/jtcash/OwonB41T)
+* (https://rudd-o.com/linux-and-free-software/working-around-bluetooth-hci-problems-in-home-assistant)
+* (https://stackoverflow.com/questions/66196897/python-ble-discover-all-uuid-characteristics)
 	
