@@ -41,9 +41,9 @@ gatttool needs to be installed and operational in linux for this application to 
 	HCI hci0 has been reset
 
 
-	3) Run the app with the multimeter address as the parameter:
+	3) Run the app with the multimeter address as the first parameter, and the meter type as the second:
 
-	$ sudo ./owon_multi_cli -a A6:C0:80:94:54:D9
+	$ sudo ./owon_multi_cli -a A6:C0:80:94:54:D9 -t cm2100b
 
 	(by default, you'll likely have to run this under sudo because the gatttool
 	won't seem to talk to BLE devices initially without being superuser/root)
@@ -52,10 +52,11 @@ gatttool needs to be installed and operational in linux for this application to 
 # Usage
 	$ sudo ./owon_multi_cli
 
-	Usage: ./owon_multi_cli  -a <address>  [-l <filename>] [-d] [-q]
+	Usage: ./owon_multi_cli  -a <address> -t b35t|b41t|cm2100b [-l <filename>] [-d] [-q]
 	-h: This help
 	-a <address>: Set the address of the cm2100b meter, eg, -a 98:84:E3:CD:C0:E5
-	-l <filename>: Set logging and the filename for the log
+	-t b35t|b41t|cm2100b: Which model of meter (only list one)
+ 	-l <filename>: Set logging and the filename for the log
 	-d: debug enabled
 	-q: quiet output
 
@@ -66,7 +67,7 @@ gatttool needs to be installed and operational in linux for this application to 
 	Timestamps are unix epoch with 2-digit fractional seconds. Numeric field
 	follows, then meter mode token strings.
 	
-	$ sudo ./owon_multi_cli -a A6:C0:80:94:54:D9 -l foo.out
+	$ sudo ./owon_multi_cli -a A6:C0:80:94:54:D9 -t cm2100b -l foo.out
 	1699308108.32 00.00 DC mV
 	1699308108.58 -0.01 DC mV
 	1699308109.11 -0.01 DC mV
